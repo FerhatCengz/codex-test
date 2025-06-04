@@ -1,22 +1,18 @@
-# Todo App
+# Proje
 
-Bu proje, basit bir yapılacaklar listesi uygulamasıdır.
+Bu depo iki farklı örnek içerir:
 
-## Özellikler
-- Görev ekleme
-- Görev silme
-- Görev güncelleme
-- Görevlerin tamamlanma durumunu işaretleme
+1. **Todo App** - Vue 3 ve Tailwind kullanarak gelistirilmis tek sayfa yapılacaklar listesi.
+2. **Başvurular Dashboard** - PHP ve PDO ile MySQL veritabanından verileri çeken basit bir yönetim paneli.
 
-## Kurulum
-1. XAMPP'i kurun ve çalıştırın.
-2. Proje dosyalarını `/Applications/XAMPP/xamppfiles/htdocs/codex-test/` dizinine kopyalayın.
-3. Tarayıcıda `http://localhost/codex-test/` adresine gidin.
+## Todo App Kullanımı
+1. Repoyu klonlayın veya indirin.
+2. `index.html` dosyasını doğrudan tarayıcınızda açın.
+3. Görev eklemek için metin kutusuna yazıp **Ekle** butonuna tıklayın veya `Enter` tuşuna basın.
+4. Görevleri düzenlemek, silmek veya tamamlandı olarak işaretlemek için ilgili butonları kullanın.
 
-## Kullanım
-1. Görev eklemek için metin kutusuna yazın ve "Ekle" butonuna tıklayın.
-2. Görevleri tamamlandı olarak işaretlemek için yanındaki kutucuğu işaretleyin.
-3. Görevleri silmek için "Sil" butonuna tıklayın.
-
-
-
+## Başvurular Dashboard
+1. PHP ve MySQL çalıştırabileceğiniz bir sunucu ortamı hazırlayın.
+2. `index.php` dosyasını sunucunuza kopyalayın.
+3. Veritabanı ayarları dosyada varsayılan olarak `localhost`, kullanıcı adı `root` ve şifresiz olacak şekilde yapılandırılmıştır. Gerekirse düzenleyin.
+4. Tarayıcınızda `index.php` dosyasını açarak başvuruları tablo halinde görüntüleyebilirsiniz.
